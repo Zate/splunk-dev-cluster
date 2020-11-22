@@ -52,6 +52,8 @@ services:
       - SPLUNK_DEPLOYMENT_SERVER=ds
       - SPLUNK_LICENSE_URI
       - SPLUNK_PASSWORD=stuff123
+      - SPLUNK_HOME=/opt/splunk
+      - SPLUNK_ETCE=/opt/splunk/etc
       - DEBUG=true
     ports:
       - 8000

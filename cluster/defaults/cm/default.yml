@@ -45,35 +45,35 @@ splunk:
   build_url_bearer_token: null
   cluster_master_url: cm
   connection_timeout: 0
-  #deployer_url: ds
-  # dfs:
-  #   dfc_num_slots: 4
-  #   dfw_num_slots: 10
-  #   dfw_num_slots_enabled: false
-  #   enable: false
-  #   port: 9000
-  #   spark_master_host: 127.0.0.1
-  #   spark_master_webui_port: 8080
-  # dsp:
-  #   cert: null
-  #   enable: false
-  #   pipeline_desc: null
-  #   pipeline_name: null
-  #   pipeline_spec: null
-  #   server: forwarders.scp.splunk.com:9997
-  #   verify: false
+  deployer_url: ds
+  dfs:
+    dfc_num_slots: 4
+    dfw_num_slots: 10
+    dfw_num_slots_enabled: false
+    enable: false
+    port: 9000
+    spark_master_host: 127.0.0.1
+    spark_master_webui_port: 8080
+  dsp:
+    cert: null
+    enable: false
+    pipeline_desc: null
+    pipeline_name: null
+    pipeline_spec: null
+    server: forwarders.scp.splunk.com:9997
+    verify: false
   enable_service: true
-  # es:
-  #   ssl_enablement: auto
+  es:
+    ssl_enablement: auto
   exec: /opt/splunk/bin/splunk
   group: splunk
-  # hec:
-  #   cert: null
-  #   enable: true
-  #   password: null
-  #   port: 8088
-  #   ssl: true
-  #   token: e1175fb4-bfe0-4224-9aab-68d11363ace7
+  hec:
+    cert: null
+    enable: true
+    password: null
+    port: 8088
+    ssl: true
+    token: e1175fb4-bfe0-4224-9aab-68d11363ace7
   home: /opt/splunk
   http_enableSSL: false
   http_enableSSL_cert: null
